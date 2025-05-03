@@ -1,0 +1,15 @@
+Patient Name: Sagnik
+Age: 45
+Gender: Male
+Date: 2025-04-25
+
+Medical History:
+John has a history of hypertension and type 2 diabetes. He was diagnosed with hypertension 10 years ago and has been on medication since then. His diabetes was diagnosed 5 years ago and is currently managed with metformin.
+
+Recent Tests:
+- Hemoglobin: 14.2 g/dL
+- Glucose: 98 mg/dL
+- CRP: 3.5 mg/L
+
+Doctor's Notes:
+Patient needs to improve lifestyle habits, including dietary changes and increased physical activity. Medication dosage for hypertension will be adjusted. Follow-up scheduled in 3 months.
