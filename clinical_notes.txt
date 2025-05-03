@@ -1,0 +1,11 @@
+Patient Name: Shantanu
+Age: 45
+Date: 2025-05-03
+
+Hemoglobin: 13.2 g/dL
+Glucose: 98 mg/dL
+CRP: 1.5 mg/L
+
+Diagnosis: Mild anemia
+Treatment Plan: Iron supplements recommended
+Follow-up: In 3 months

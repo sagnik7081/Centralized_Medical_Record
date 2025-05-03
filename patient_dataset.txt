@@ -1,0 +1,11 @@
+Patient Name: Shantanu
+Age: 38
+Date: 2025-05-03
+
+Hemoglobin: 14.5 g/dL
+Glucose: 88 mg/dL
+CRP: 0.8 mg/L
+
+Diagnosis: Healthy
+Treatment Plan: No treatment required
+Follow-up: In 6 months
