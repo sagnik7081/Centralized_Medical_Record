@@ -108,7 +108,8 @@ The goal is to make medical information more accessible and meaningful to both p
 
 - Sagnik Ghosh
 - Shantanu
-- Shaurya Pratap Singh  
+- Shaurya Pratap Singh
+- Vishal Singh  
 
 ---
 
