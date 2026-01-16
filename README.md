@@ -62,7 +62,7 @@ The goal is to make medical information more accessible and meaningful to both p
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/centralized-medical-repo.git
+   git clone https://github.com/sagnik7081/centralized-medical-repo.git
    cd centralized-medical-repo
    ```
 
