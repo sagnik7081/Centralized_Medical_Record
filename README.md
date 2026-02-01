@@ -1,118 +1,211 @@
-# Centralized_Medical_Record
-
 # 🩺 Centralized Medical Record Repository
 
-A lightweight and modular web application for organizing, summarizing, and visualizing personal medical records — built with Python and Streamlit.
+<div align="center">
+
+![Medical Records](https://img.shields.io/badge/Medical-Records-blue?style=for-the-badge&logo=heart&logoColor=white)
+![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+**✨ A lightweight and modular web application for organizing, summarizing, and visualizing personal medical records ✨**
+
+[🚀 Get Started](#-installation--setup) • [✨ Features](#-key-features) • [🧰 Tech Stack](#-tech-stack) • [👥 Contributors](#-contributors)
+
+</div>
 
 ---
 
-## 🚀 Overview
+## 🎯 Overview
 
-Managing medical records can be messy and overwhelming. This application streamlines the process by allowing users to upload their medical PDFs, which are then:
+> 💡 Managing medical records can be messy and overwhelming. This application streamlines the process!
 
-- Categorized (e.g., prescriptions, test reports)
-- Parsed for important details
-- Summarized in plain language
-- Visualized through interactive health trends
+Upload your medical PDFs and watch the magic happen:
 
-The goal is to make medical information more accessible and meaningful to both patients and healthcare professionals.
+| Step | Action | Result |
+|:----:|:------:|:------:|
+| 📤 | **Upload** | Drop your PDF files |
+| 🏷️ | **Categorize** | Auto-sorted by type |
+| 🔍 | **Parse** | Extract key details |
+| 📝 | **Summarize** | Plain language summaries |
+| 📊 | **Visualize** | Interactive health trends |
+
+🎯 **Goal**: Make medical information more accessible and meaningful to both patients and healthcare professionals.
 
 ---
 
 ## ✨ Key Features
 
-- 🔐 Secure user authentication (with hashed passwords)
-- 📁 Upload and auto-categorize PDF medical records
-- 🧠 Extract important data: symptoms, medicines, test outcomes
-- 📝 Generate clean, readable summaries
-- 📊 Interactive health data visualization using Plotly
-- ⚙️ Fully modular codebase
+<table>
+<tr>
+<td width="50%">
+
+### 🔐 Security
+- Secure user authentication
+- Hashed password storage
+- Protected data access
+
+### 📁 File Management
+- Upload medical PDFs
+- Auto-categorization
+- Organized storage
+
+### 🧠 Smart Extraction
+- Symptom detection
+- Medicine identification
+- Test outcome parsing
+
+</td>
+<td width="50%">
+
+### 📝 Summaries
+- Clean, readable format
+- Plain language output
+- Key highlights
+
+### 📊 Visualization
+- Interactive charts
+- Health trend analysis
+- Data insights
+
+### ⚙️ Architecture
+- Modular codebase
+- Reusable components
+- Easy to extend
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🧰 Tech Stack
 
-- **Frontend & Backend**: Python, Streamlit  
-- **Database**: SQLite  
-- **PDF Handling**: PyMuPDF  
-- **Data Visualization**: Plotly  
-- **Other Tools**: `dotenv`, `hashlib`, `re`, `os`, `pandas`, `datetime`
+<div align="center">
+
+| Category | Technologies |
+|:--------:|:------------:|
+| ⚛️ **Frontend** | React • TypeScript • Vite |
+| 🎨 **Styling** | Tailwind CSS • shadcn/ui |
+| 📊 **Visualization** | Recharts |
+| 🧭 **Routing** | React Router |
+| 🔄 **State** | TanStack Query |
+| 📦 **Build** | Vite • ESBuild |
+
+</div>
 
 ---
 
-## 🗂️ Project Structure
+## 📂 Project Structure
 
 ```
 📁 centralized-medical-repo/
 │
-├── auth.py             # Handles login and registration
-├── file_manager.py     # File uploading and categorization
-├── parser.py           # Extracts key info from PDFs
-├── summarize.py        # Generates text summaries
-├── plots.py            # Plots graphs using Plotly
-├── main.py             # Streamlit app entry point
-├── users.db            # SQLite database for credentials
-├── requirements.txt    # Project dependencies
-└── .env                # Environment variables
+├── 📄 src/
+│   ├── 🧩 components/      # Reusable UI components
+│   │   └── ui/             # shadcn/ui components
+│   ├── 📄 pages/           # Route pages
+│   ├── 🎣 hooks/           # Custom React hooks
+│   ├── 🛠️ lib/             # Utility functions
+│   └── 🎨 index.css        # Global styles
+│
+├── 📁 public/              # Static assets
+├── ⚙️ vite.config.ts       # Vite configuration
+├── 🎨 tailwind.config.ts   # Tailwind configuration
+└── 📦 package.json         # Dependencies
 ```
 
 ---
 
 ## 🛠️ Installation & Setup
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/sagnik7081/centralized-medical-repo.git
-   cd centralized-medical-repo
-   ```
+### Prerequisites
 
-2. **Set Up Virtual Environment (Optional but Recommended)**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+> 📋 Make sure you have **Node.js** installed on your machine
 
-3. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+### Quick Start
 
-4. **Create `.env` File**
-   ```
-   SECRET_KEY=your_secret_key_here
-   ```
+```bash
+# 1️⃣ Clone the Repository
+git clone <YOUR_GIT_URL>
+cd <YOUR_PROJECT_NAME>
 
-5. **Run the App**
-   ```bash
-   streamlit run main.py
-   ```
-   "remember the patients name and username should be same"
+# 2️⃣ Install Dependencies
+npm install
+
+# 3️⃣ Start Development Server
+npm run dev
+```
+
+### 🌐 Access the App
+
+Once running, open your browser and navigate to:
+
+```
+🔗 http://localhost:5173
+```
+
+> ⚠️ **Important Note**: The patient's name and username should be the same.
+
 ---
 
 ## ⚠️ Known Challenges
 
-- Inconsistent formatting across different medical PDFs made parsing and data extraction challenging.
-- Fine-tuning regex logic for reliability took significant effort.
+| Challenge | Description |
+|:---------:|:------------|
+| 📄 **PDF Formatting** | Inconsistent formatting across different medical PDFs made parsing and data extraction challenging |
+| 🔧 **Regex Logic** | Fine-tuning regex patterns for reliable data extraction required significant effort |
+| 🔄 **Data Normalization** | Standardizing medical terminology across different sources |
 
 ---
 
 ## 📌 Future Improvements
 
-- Add cloud storage integration for multi-device access
-- Support for image-based PDFs using OCR
-- Multi-user dashboard for doctors and caregivers
+- [ ] ☁️ Cloud storage integration for multi-device access
+- [ ] 🔍 OCR support for image-based PDFs
+- [ ] 👨‍⚕️ Multi-user dashboard for doctors and caregivers
+- [ ] 📱 Mobile-responsive design improvements
+- [ ] 🔔 Health reminder notifications
+- [ ] 📤 Export to multiple formats (PDF, CSV, JSON)
 
 ---
 
 ## 🧑‍💻 Contributors
 
-- Sagnik Ghosh
-- Shantanu
-- Shaurya Pratap Singh
-- Vishal Singh  
+<div align="center">
+
+| 👤 | Name | Role |
+|:--:|:----:|:----:|
+| 🧑‍💻 | **Sagnik Ghosh** | Developer |
+| 🧑‍💻 | **Shantanu** | Developer |
+| 🧑‍💻 | **Shaurya Pratap Singh** | Developer |
+| 🧑‍💻 | **Vishal Singh** | Developer |
+
+</div>
+
+---
+
+## 🤝 Contributing
+
+Contributions are always welcome! 🎉
+
+1. 🍴 Fork the repository
+2. 🌿 Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. 💾 Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. 📤 Push to the branch (`git push origin feature/AmazingFeature`)
+5. 🔃 Open a Pull Request
 
 ---
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+<div align="center">
+
+This project is open-source and available under the **MIT License** 📜
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+
+---
+
+<sub>Made with ❤️ by the Medical Records Team</sub>
+
+</div>
